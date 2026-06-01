@@ -1,0 +1,2 @@
+const router=require("express").Router();const c=require("../controllers/dashboardController");const{protect,authorize}=require("../middleware/authMiddleware");
+router.get("/customer/dashboard",protect,authorize("customer"),c.customerDashboard);router.get("/agent/dashboard",protect,authorize("agent"),c.agentDashboard);router.get("/admin/dashboard",protect,authorize("admin"),c.adminDashboard);module.exports=router;

@@ -1,0 +1,2 @@
+const router=require("express").Router();const c=require("../controllers/adminController");const{protect,authorize}=require("../middleware/authMiddleware");
+router.use(protect,authorize("admin"));router.get("/users",c.users);router.get("/agents",c.agents);router.post("/agents",c.createAgent);router.put("/users/:id/status",c.updateUserStatus);router.get("/audit-logs",c.auditLogs);router.get("/sla-breaches",c.slaBreaches);module.exports=router;

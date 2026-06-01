@@ -1,0 +1,1 @@
+const router=require("express").Router();const c=require("../controllers/aiController");const{protect}=require("../middleware/authMiddleware");router.post("/analyze-ticket",protect,c.analyze);module.exports=router;
