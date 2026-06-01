@@ -1,0 +1,2 @@
+const cron=require("node-cron");const Ticket=require("../models/Ticket");const{logAudit}=require("../services/auditService");
+module.exports=(io)=>cron.schedule("*/5 * * * *",async()=>{const overdue=await Ticket.find({isSlaBreached:false,status:{$nin:["resolved","closed"]},slaDueAt:{$lt:new Date()}});for(const t of overdue){t.isSlaBreached=true;await t.save();await logAudit({action:"SLA_BREACHED",entityType:"Ticket",entityId:t._id,description:`SLA breached for ${t.ticketNumber}`});io?.emit("sla:breached",t)}});
