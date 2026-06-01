@@ -1,0 +1,7 @@
+const asyncHandler=require("../utils/asyncHandler");const User=require("../models/User");const Ticket=require("../models/Ticket");const AuditLog=require("../models/AuditLog");
+exports.users=asyncHandler(async(req,res)=>res.json(await User.find().select("-password").sort("-createdAt")));
+exports.agents=asyncHandler(async(req,res)=>res.json(await User.find({role:"agent"}).select("-password")));
+exports.createAgent=asyncHandler(async(req,res)=>{const{name,email,password,department,skills}=req.body;if(await User.exists({email}))return res.status(400).json({message:"Email already exists"});const agent=await User.create({name,email,password,department,skills,role:"agent"});res.status(201).json({id:agent._id,name:agent.name,email:agent.email,role:agent.role})});
+exports.updateUserStatus=asyncHandler(async(req,res)=>{const user=await User.findById(req.params.id);if(!user)return res.status(404).json({message:"User not found"});if(String(user._id)===String(req.user._id))return res.status(400).json({message:"Cannot disable own account"});user.status=req.body.status;await user.save();res.json({message:"User status updated"})});
+exports.auditLogs=asyncHandler(async(req,res)=>res.json(await AuditLog.find().populate("user","name email role").sort("-createdAt").limit(100)));
+exports.slaBreaches=asyncHandler(async(req,res)=>res.json(await Ticket.find({isSlaBreached:true}).populate("customer","name email").populate("assignedAgent","name email")));
