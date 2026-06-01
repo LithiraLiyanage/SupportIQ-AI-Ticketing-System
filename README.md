@@ -1,7 +1,7 @@
-````markdown
 <div align="center">
 
-# 🎧 SupportIQ  
+# 🎧 SupportIQ
+
 ### 🤖 AI Customer Support Ticketing System
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=28&duration=2500&pause=700&color=4F46E5&center=true&vCenter=true&width=1000&lines=AI-Powered+Customer+Support+Platform;MERN+Stack+%7C+Socket.io+%7C+AI+Ticket+Triage;SLA+Tracking+%7C+Real-Time+Comments+%7C+Analytics;Customer+%7C+Agent+%7C+Admin+Dashboards;Built+for+Full+Stack+%7C+AI+Engineer+Portfolios" alt="Typing SVG" />
@@ -12,12 +12,12 @@
 
 <br/>
 
-![React](https://img.shields.io/badge/React-Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-Realtime-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
-![JWT](https://img.shields.io/badge/Auth-JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![React](https://img.shields.io/badge/React-Vite-61DAFB?style=for-the-badge\&logo=react\&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge\&logo=node.js\&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose-47A248?style=for-the-badge\&logo=mongodb\&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-Realtime-010101?style=for-the-badge\&logo=socketdotio\&logoColor=white)
+![JWT](https://img.shields.io/badge/Auth-JWT-000000?style=for-the-badge\&logo=jsonwebtokens\&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-CSS-06B6D4?style=for-the-badge\&logo=tailwindcss\&logoColor=white)
 ![AI](https://img.shields.io/badge/AI-Triage-4F46E5?style=for-the-badge)
 
 <br/>
@@ -48,13 +48,13 @@ Customers can create support tickets, AI automatically detects **priority, categ
 
 ## 🎯 Project Purpose
 
-| Target Role | What This Project Shows |
-|---|---|
-| 💻 Full Stack Developer | MERN stack, dashboards, APIs, authentication, role-based access |
-| 🤖 AI Engineer Intern | Rule-based AI triage, sentiment detection, priority/category prediction |
-| ⚙️ Backend Developer | Express API, MongoDB models, JWT, validations, file uploads, Socket.io |
-| 🎨 Frontend Developer | Responsive SaaS UI, cards, charts, routing, protected pages |
-| 🧑‍💼 Real-World Product Thinking | Customer support workflow, SLA tracking, assignment, admin analytics |
+| Target Role             | What This Project Shows                                                 |
+| ----------------------- | ----------------------------------------------------------------------- |
+| 💻 Full Stack Developer | MERN stack, dashboards, APIs, authentication, role-based access         |
+| 🤖 AI Engineer Intern   | Rule-based AI triage, sentiment detection, priority/category prediction |
+| ⚙️ Backend Developer    | Express API, MongoDB models, JWT, validations, file uploads, Socket.io  |
+| 🎨 Frontend Developer   | Responsive SaaS UI, cards, charts, routing, protected pages             |
+| 🧑‍💼 Product Thinking  | Customer support workflow, SLA tracking, assignment, admin analytics    |
 
 ---
 
@@ -62,44 +62,40 @@ Customers can create support tickets, AI automatically detects **priority, categ
 
 ### 👤 Customer Features
 
-- 🎫 Create support tickets
-- 📋 View own tickets
-- 💬 Add comments to tickets
-- 📎 Upload attachments
-- ⏱️ Track SLA status
-- 🔁 Reopen resolved tickets
-- ✅ Close tickets after resolution
-- ⭐ Rate support experience
-
----
+* 🎫 Create support tickets
+* 📋 View own tickets
+* 💬 Add comments to tickets
+* 📎 Upload attachments
+* ⏱️ Track SLA status
+* 🔁 Reopen resolved tickets
+* ✅ Close tickets after resolution
+* ⭐ Rate support experience
 
 ### 🧑‍💻 Agent Features
 
-- 📥 View assigned tickets
-- 💬 Reply to customers in real time
-- 🔄 Update ticket status
-- 🚦 Change priority
-- 📝 Add internal notes
-- 👤 View customer details
-- ⏱️ Monitor SLA countdown
-- ✅ Resolve tickets
-- 📊 View agent performance dashboard
-
----
+* 📥 View assigned tickets
+* 💬 Reply to customers in real time
+* 🔄 Update ticket status
+* 🚦 Change priority
+* 📝 Add internal notes
+* 👤 View customer details
+* ⏱️ Monitor SLA countdown
+* ✅ Resolve tickets
+* 📊 View agent performance dashboard
 
 ### 🛡️ Admin Features
 
-- 👑 Admin dashboard
-- 🎫 View all tickets
-- 👥 Manage customers and agents
-- 🧑‍💻 Create agent accounts
-- 🗂️ Manage ticket categories
-- 🚨 View SLA breaches
-- 📊 View analytics
-- 🤖 Monitor AI classification stats
-- 📜 View audit logs
-- 📤 Export reports
-- ⚙️ Configure SLA rules
+* 👑 Admin dashboard
+* 🎫 View all tickets
+* 👥 Manage customers and agents
+* 🧑‍💻 Create agent accounts
+* 🗂️ Manage ticket categories
+* 🚨 View SLA breaches
+* 📊 View analytics
+* 🤖 Monitor AI classification stats
+* 📜 View audit logs
+* 📤 Export reports
+* ⚙️ Configure SLA rules
 
 ---
 
@@ -109,14 +105,14 @@ SupportIQ includes a **rule-based AI triage engine** that works without paid API
 
 The AI analyzes ticket title and description to detect:
 
-| AI Output | Example |
-|---|---|
-| 🗂️ Category | Billing, Account Access, Bug Report |
-| 🚦 Priority | Low, Medium, High, Critical |
+| AI Output    | Example                                    |
+| ------------ | ------------------------------------------ |
+| 🗂️ Category | Billing, Account Access, Bug Report        |
+| 🚦 Priority  | Low, Medium, High, Critical                |
 | 😊 Sentiment | Positive, Neutral, Negative, Angry, Urgent |
-| 📝 Summary | Short support-focused ticket summary |
-| 🏷️ Tags | login, billing, bug, refund, api |
-| 🎯 Tone | Professional, empathetic, urgent |
+| 📝 Summary   | Short support-focused ticket summary       |
+| 🏷️ Tags     | login, billing, bug, refund, api           |
+| 🎯 Tone      | Professional, empathetic, urgent           |
 
 ### 🚨 Critical Priority Keywords
 
@@ -129,7 +125,7 @@ cannot access account
 payment failed repeatedly
 system down
 urgent refund escalation
-````
+```
 
 ---
 
@@ -388,8 +384,6 @@ VITE_SOCKET_URL=http://localhost:5000
 docker compose up -d mongo
 ```
 
----
-
 ### 2️⃣ Start AI Service Optional
 
 ```bash
@@ -399,8 +393,6 @@ venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn app.main:app --reload --port 8000
 ```
-
----
 
 ### 3️⃣ Start Backend
 
@@ -416,8 +408,6 @@ Backend URL:
 ```text
 http://localhost:5000
 ```
-
----
 
 ### 4️⃣ Start Frontend
 
@@ -624,18 +614,6 @@ POST /api/ai/analyze-ticket
 
 ---
 
-## 🎤 Interview Explanation
-
-> SupportIQ is an AI-powered MERN customer support ticketing system. It supports customer, agent, and admin roles. Customers can create support tickets, agents can manage assigned tickets with real-time comments, and admins can monitor the entire support workflow. The system includes AI-based priority, category, and sentiment detection, SLA tracking, ticket assignment, audit logs, notifications, attachments, and analytics dashboards.
-
----
-
-## 📌 Professional CV Bullet
-
-> Developed SupportIQ, an AI-powered MERN customer support ticketing system with role-based dashboards, ticket workflows, AI priority/category/sentiment detection, real-time comments, SLA tracking, file attachments, notifications, audit logs, and admin analytics.
-
----
-
 ## 👨‍💻 Author
 
 <div align="center">
@@ -658,4 +636,4 @@ Full Stack Developer | MERN Stack Developer | AI Engineer
 <img src="https://capsule-render.vercel.app/api?type=waving&color=4F46E5&height=120&section=footer" width="100%" />
 
 </div>
-```
+
