@@ -1,7 +1,5 @@
 <div align="center">
 
-# 🎧 SupportIQ
-
 ### 🤖 AI Customer Support Ticketing System
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=28&duration=2500&pause=700&color=4F46E5&center=true&vCenter=true&width=1000&lines=AI-Powered+Customer+Support+Platform;MERN+Stack+%7C+Socket.io+%7C+AI+Ticket+Triage;SLA+Tracking+%7C+Real-Time+Comments+%7C+Analytics;Customer+%7C+Agent+%7C+Admin+Dashboards;Built+for+Full+Stack+%7C+AI+Engineer+Portfolios" alt="Typing SVG" />
