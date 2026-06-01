@@ -1,0 +1,1 @@
+const DashboardCard=({title,value,icon:Icon,tone="bg-indigo-50 text-primary"})=><div className="card p-5"><div className="flex items-center justify-between"><div><p className="text-sm text-slate-500">{title}</p><p className="mt-2 text-3xl font-black">{value??0}</p></div>{Icon&&<div className={`rounded-2xl p-3 ${tone}`}><Icon/></div>}</div></div>;export default DashboardCard;

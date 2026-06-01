@@ -1,0 +1,1 @@
+const EmptyState=({title="No data found",text="Create your first item to get started."})=><div className="card p-10 text-center"><h3 className="text-xl font-black">{title}</h3><p className="mt-2 text-slate-500">{text}</p></div>;export default EmptyState;
